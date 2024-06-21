@@ -3,7 +3,7 @@ from telegram import Update
 
 
 def handle_document(update: Update, context):
-    # Возможно здесь опишем логику проверки документа
+    # Возможно здесь опишем логику проверки документа в будущем
     update.message.reply_text('Я получил ваш документ. Проверка началась...')
     pass
 

@@ -5,7 +5,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 from handlers import handle_document, handle_text
 
-# Настройка логирования
+# Настройка логирования для проверки
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
