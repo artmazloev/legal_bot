@@ -14,7 +14,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-# Функция для обработки команды /start
+# Функция для обработки /start
 def start(update: Update, context):
     user = update.effective_user
     update.message.reply_markdown_v2(
